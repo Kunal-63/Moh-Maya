@@ -26,7 +26,7 @@ class SplashState extends State<SplashScreen> {
   }
 
   startTime() async {
-    var duration = new Duration(seconds: 2);
+    var duration = new Duration(seconds: 5);
     return new Timer(duration, route);
   }
 
@@ -39,7 +39,7 @@ class SplashState extends State<SplashScreen> {
     return Container(
       decoration: const BoxDecoration(
         image: DecorationImage(
-          image: AssetImage('assets/images/splashscreen.png'),
+          image: AssetImage("assets/images/splash.gif"),
           fit: BoxFit.cover,
         ),
       ),
